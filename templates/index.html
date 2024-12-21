@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>教科書の画像を撮ってください。</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="instruction">教科書を撮影してください。</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="img_file" accept=".png, .jpg, .jpeg, .heic">
+            <input type="submit" value="アップロード">
+        </form>
+    </div>
+</body>
+</html>
